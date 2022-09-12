@@ -1,0 +1,47 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.main-article {
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+ul {
+  list-style: square;
+  list-style-position: inside;
+}
+
+li {
+  color: red;
+}
+
+.sidebar-span {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+@media (min-width: 992px) {
+  .info-wrapper {
+    margin-bottom: -10px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,1), rgba(255,255,255,1));
+    border-top: 5px solid red;
+    
+    color: red;
+    
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+  }
+}

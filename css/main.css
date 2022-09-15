@@ -1,5 +1,3 @@
-/* GLOBAL STYLES */
-
 /* NAVBAR */
 .navbar {
   margin-bottom: 0;
@@ -22,6 +20,7 @@
 
 .headline {
   text-transform: uppercase;
+  color: black;
 }
 
 .sponsor-insights {
@@ -35,7 +34,11 @@
     
     text-align: center;
     font-weight: 900;
-  
+}
+
+.us {
+  color: red;
+  font-size: 25px;
 }
 
 /* SIDEBAR */
@@ -46,23 +49,23 @@
   text-transform: uppercase;
 }
 
-ul {
+.sidebar-ul {
   margin-top: 25px;
-
   list-style: square;
   list-style-position: inside;
-}
-
-li {
-  padding: 10px;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.25);
-  color: red;
 }
 
 .sidebar-button {
   display: block;
   padding: 10px;
   width: 100%;
+  font-weight: 600;
+}
+
+.sidebar-item {
+  padding: 10px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.15);
+  color: red;
 }
 
 .sidebar-link {
@@ -71,34 +74,28 @@ li {
   font-size: large;
 }
 
-.us {
-  color: red;
-  font-size: 25px;
-}
+
 
 /* ---- MEDIA QUERIES ---- */
 /* LARGE SCREENS */
 @media (min-width: 992px) {
   .article-overlay {
     margin-bottom: -10px;
-
     position: absolute;
     bottom: 0;
     left: 0;
-    right: 0;
-
-    
+    right: 0; 
   }
 }
 
+/* SMALLER SCREENS */
 @media (max-width: 992px) {
   #sidebar {
     text-align: center;
     width: 100%;
-   
   }
 
-  .margin-error {
+  .sidebar-ul {
     padding-left: 0;
   }
 }
